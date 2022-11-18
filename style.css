@@ -1,0 +1,211 @@
+body {
+  background-image: linear-gradient(45deg, rgb(0, 255, 229), rgb(13, 127, 150), rgb(93, 18, 163));
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+#i1 {
+  border: 6px solid white;
+  border-radius: 50%;
+  animation: neel 4s infinite alternate;
+  position: relative;
+}
+@keyframes neel {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: 30px;
+  }
+}
+
+.text {
+  margin-top: 45px;
+  color: white;
+  font-family: "Kolker Brush", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin-top: 5px;
+  color: black;
+  font-family: "Kolker Brush", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sdiv {
+  display: flex;
+  /* margin-left: 2px; */
+}
+
+.git {
+  margin-left: 25px;
+}
+
+.buket {
+  margin-left: 25px;
+}
+
+.box {
+  margin-left: 25px;
+}
+i {
+  /* size: 10px; */
+  /* size: 100px; */
+  color: rgb(178, 233, 233);
+  font-size: x-large;
+}
+
+i:hover {
+  color: white;
+}
+
+#p2 {
+  margin-top: 15px;
+  color: black;
+  font-family: "Kolker Brush", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text2 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Kalam", cursive;
+  font-family: "Kolker Brush", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Satisfy", cursive;
+}
+
+.float {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 10px;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  display: flex;
+  width: 300px;
+  height: 50px;
+}
+
+.coffee {
+  line-height: 60px;
+  color: yellow;
+}
+
+.text {
+  display: flex;
+}
+.t2 {
+  margin-left: 10px;
+}
+@media screen and (max-width: 450px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+  #i1 {
+    border: 6px solid white;
+    border-radius: 50%;
+    animation: neel 4s infinite alternate;
+    position: relative;
+  }
+  @keyframes neel {
+    from {
+      top: 0px;
+    }
+
+    to {
+      top: 30px;
+    }
+  }
+
+  .text {
+    margin-top: 45px;
+    color: white;
+    font-family: "Kolker Brush", cursive;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  p {
+    margin-top: 5px;
+    color: black;
+    font-family: "Kolker Brush", cursive;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .sdiv {
+    display: flex;
+    /* margin-left: 2px; */
+  }
+
+  .git {
+    margin-left: 25px;
+  }
+
+  .buket {
+    margin-left: 25px;
+  }
+
+  .box {
+    margin-left: 25px;
+  }
+  i {
+    /* size: 10px; */
+    /* size: 100px; */
+    color: rgb(178, 233, 233);
+    font-size: x-large;
+  }
+
+  i:hover {
+    color: white;
+  }
+
+  #p2 {
+    margin-top: 15px;
+    color: black;
+    font-family: "Kolker Brush", cursive;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .text2 {
+    font-family: "Dancing Script", cursive;
+    font-family: "Kalam", cursive;
+    font-family: "Kolker Brush", cursive;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Satisfy", cursive;
+  }
+
+  .float {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    width: 300px;
+    height: 50px;
+  }
+
+  .coffee {
+    line-height: 60px;
+    color: yellow;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+  }
+}
